@@ -39,25 +39,16 @@
           break;
         }
         i++;
-      }
-    
-
-       
+      }  
     }
-
     if(error.length == 0){
       var calc = eval(n);
       var show = osa(calc); // číselná osa
-    } 
-    
-      
-    
+    }  
     var node = document.getElementById("basic"); 
     node.innerHTML ="<p>"+ n + " = " + calc + "</p>";  
-    document.getElementById("result").style.display="block";   
-    
-   }        
-   
+    document.getElementById("result").style.display="block";      
+   }         
   function osa(calc){ //funkce píšící osu
     var osa = document.getElementById("osa"); 
     document.getElementById("osa").style.display="block";
